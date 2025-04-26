@@ -1,0 +1,10 @@
+*.dylib binary
+*.so binary
+*.a binary
+*.dll binary
+*.pdb binary
+*.lib binary
+
+# Mark venv directories as binary to avoid git tracking their contents
+backend/venv/** binary
+**/venv/** binary 
